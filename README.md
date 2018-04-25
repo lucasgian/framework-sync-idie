@@ -1,1 +1,1 @@
-# framework-sync-idie
+# Framework para otimização de projetos em PHP.

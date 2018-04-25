@@ -5,7 +5,7 @@ require_once 'environment.php';
 
 
 spl_autoload_register(function ($class_name) {
-	/*
+	
     if(file_exists(__COMPONENT__. $class_name . '.php'))
     	require_once __COMPONENT__. $class_name . '.php';
     
@@ -26,7 +26,7 @@ spl_autoload_register(function ($class_name) {
 
     if(file_exists(__TABLE__. $class_name . '.php'))
         require_once __TABLE__. $class_name . '.php';
-    */
+    
 });
 
 ?>

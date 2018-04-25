@@ -6,7 +6,7 @@ class MainView implements View {
 	}
 
 	public function index() { 
-		require_once __PAGES__.'home.php'; 
+		require_once __STATIC__.'home.php'; 
 	}
 	public function add() {}
 	public function edit() {}

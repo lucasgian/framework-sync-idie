@@ -12,7 +12,7 @@
         "entity": "src/Model/Entity/",
         "table": "src/Model/Table/"
     },   
-    "routers": [
+    "routes": [
         {
             "name": "index",
             "presenter": "MainView",

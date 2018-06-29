@@ -12,15 +12,15 @@ class RouterComponent {
      * @return string
      */
     public function on() {
-		$file = file_get_contents('config/const.json');
-		$json = json_decode($file); 
-		self::$routes = $json->routers;
 		
+		self::$routes = DecodeComponent::getJson()->routes;
+
 		$context = substr($_SERVER['REQUEST_URI'], strlen(__APP_ROOT__));
 
 		foreach (self::$routes as $key => $value) {
-			if ($value->name == $context)
+			if ($value->name == $context) {
 				return $value;
+			}
 		}
 
 		return self::$routes[0];

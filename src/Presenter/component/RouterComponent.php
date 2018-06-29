@@ -7,7 +7,8 @@ class RouterComponent {
 		Configuração de rotas.
 	*/
     private static $routes = [
-    	['name' => 'main', 'presenter' => 'MainView', 'page' => 'index']
+			['name' => 'main', 'presenter' => 'MainView', 'page' => 'index'],
+			['name' => 'login', 'presenter' => 'LoginView', 'page' => 'index']
     ];
 
     /**

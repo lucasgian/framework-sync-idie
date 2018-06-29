@@ -1,7 +1,7 @@
 <?php
 
 
-class DecodeComponent {
+class Decode {
 
     private static $data;
 

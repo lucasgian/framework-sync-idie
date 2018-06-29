@@ -1,13 +1,13 @@
 {
     "app": "/framework-sync-idie/",
     "source": {
-        "presenter": "src/Presenter/",
-        "component": "src/Presenter/component/",
+        "router": "src/router/",
         "interface": "src/Interface/",
+        "util": "src/util/",
 
-        "view": "src/View/",
-        "pages": "src/View/Pages/",
-        "static": "src/View/Static/",
+        "view": "View/",
+        "pages": "View/Pages/",
+        "static": "View/Static/",
 
         "entity": "src/Model/Entity/",
         "table": "src/Model/Table/"

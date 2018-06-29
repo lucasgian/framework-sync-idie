@@ -1,7 +1,7 @@
 <?php
 
 
-class RouterComponent {
+class Router {
 
 	/*
 		Configuração de rotas.
@@ -13,7 +13,7 @@ class RouterComponent {
      */
     public function on() {
 		
-		self::$routes = DecodeComponent::getJson()->routes;
+		self::$routes = Decode::getJson()->routes;
 
 		$context = substr($_SERVER['REQUEST_URI'], strlen(__APP_ROOT__));
 

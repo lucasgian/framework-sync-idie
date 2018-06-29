@@ -1,4 +1,7 @@
 <?php
+/**
+ * @author Gian Fonseca
+ */
 class DataBase {
 	public $conn;
 

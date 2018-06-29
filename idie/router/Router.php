@@ -1,12 +1,15 @@
 <?php
-
+/**
+ * @author Gian Fonseca
+ */
 
 class Router {
 
 	/*
 		Configuração de rotas.
 	*/
-    private static $routes;
+	private static $routes;
+	
 
     /**
      * @return string

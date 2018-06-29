@@ -6,8 +6,7 @@ require_once 'environment.php';
 
 spl_autoload_register(function ($class_name) {
 
-    $file = file_get_contents('config/const.json');
-    $json = json_decode($file);
+    $json = Decode::getJson();
 
     foreach ($json->source as $key => $value) {
 

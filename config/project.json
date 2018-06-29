@@ -1,16 +1,17 @@
 {
     "app": "/framework-sync-idie/",
     "source": {
-        "router": "src/router/",
-        "interface": "src/Interface/",
-        "util": "src/util/",
+        "root": "idie/",
+        "router": "idie/router/",
+        "interface": "idie/Interface/",
+        "util": "idie/util/",
 
-        "view": "View/",
-        "pages": "View/Pages/",
-        "static": "View/Static/",
+        "view": "view/",
+        "pages": "view/pages/",
+        "static": "view/static/",
 
-        "entity": "src/Model/Entity/",
-        "table": "src/Model/Table/"
+        "entity": "idie/Model/Entity/",
+        "table": "idie/Model/Table/"
     },   
     "routes": [
         {

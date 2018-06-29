@@ -1,8 +1,8 @@
 <?php
 
+require_once "idie/util/Decode.php";
 
-$file = file_get_contents('config/const.json');
-$json = json_decode($file);
+$json = Decode::getJson();
 
 foreach ($json->source as $key => $value) {
 

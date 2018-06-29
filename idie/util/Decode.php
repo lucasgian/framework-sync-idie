@@ -15,7 +15,7 @@ class Decode {
 
     private function findData() {
 
-        $file = file_get_contents('config/const.json');
+        $file = file_get_contents('config/project.json');
         return json_decode($file); 
         
     }

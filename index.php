@@ -1,9 +1,9 @@
 <?php
 
-require_once 'config/autoload.php';
+require_once 'idie/IdieSync.php';
 
-
-$controller = new Frame();
+$idie = new IdieSync();
+$idie->router();
 
 ?>
 

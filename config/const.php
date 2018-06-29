@@ -12,10 +12,4 @@ foreach ($json->source as $key => $value) {
 
 define( '__APP_ROOT__', $json->app );
 
-
-define('__IMG__', 'images/');
-define('__CSS__', 'src/Util/css/');
-define('__MATERIALIZE__', 'src/Util/materialize/');
-
-
 ?>

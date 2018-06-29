@@ -1,0 +1,27 @@
+{
+    "app": "/framework-sync-idie/",
+    "source": {
+        "presenter": "src/Presenter/",
+        "component": "src/Presenter/component/",
+        "interface": "src/Interface/",
+
+        "view": "src/View/",
+        "pages": "src/View/Pages/",
+        "static": "src/View/Static/",
+
+        "entity": "src/Model/Entity/",
+        "table": "src/Model/Table/"
+    },   
+    "routers": [
+        {
+            "name": "index",
+            "presenter": "MainView",
+            "page": "index"
+        },
+        {
+            "name": "login",
+            "presenter": "LoginView",
+            "page": "index"
+        }
+    ]
+}

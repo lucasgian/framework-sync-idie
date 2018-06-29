@@ -5,27 +5,19 @@ require_once 'environment.php';
 
 
 spl_autoload_register(function ($class_name) {
-	
-    if(file_exists(__COMPONENT__. $class_name . '.php'))
-    	require_once __COMPONENT__. $class_name . '.php';
-    
-    if(file_exists(__PRESENTER__. $class_name . '.php'))
-    	require_once __PRESENTER__. $class_name . '.php';
 
-    if(file_exists(__VIEW__. $class_name . '.php'))
-    	require_once __VIEW__. $class_name . '.php';
+    $file = file_get_contents('config/const.json');
+    $json = json_decode($file);
 
-    if(file_exists(__INTERFACE__. $class_name . '.php'))
-    	require_once __INTERFACE__. $class_name . '.php';
+    foreach ($json->source as $key => $value) {
 
-    if(file_exists(__ADAPTER__. $class_name . '.php'))
-    	require_once __ADAPTER__. $class_name . '.php';
+        if ( file_exists( $value . $class_name . '.php' ) ) {
 
-    if(file_exists(__ENTITY__. $class_name . '.php'))
-        require_once __ENTITY__. $class_name . '.php';
+            require_once $value . $class_name . '.php';
 
-    if(file_exists(__TABLE__. $class_name . '.php'))
-        require_once __TABLE__. $class_name . '.php';
+        }
+            
+    }
     
 });
 

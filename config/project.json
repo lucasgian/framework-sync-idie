@@ -1,5 +1,11 @@
 {
     "app": "/framework-sync-idie/",
+    "database": {
+        "server": "localhost",
+        "name": "idie",
+        "user": "root",
+        "password": ""
+    },
     "source": {
         "root": "idie/",
         "router": "idie/router/",
@@ -10,8 +16,9 @@
         "pages": "view/pages/",
         "static": "view/static/",
 
-        "entity": "idie/Model/Entity/",
-        "table": "idie/Model/Table/"
+        "entity": "idie/model/entity/",
+        "table": "idie/model/table/",
+        "adapter": "idie/adapter/"
     },   
     "routes": [
         {

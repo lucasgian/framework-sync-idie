@@ -1,7 +1,6 @@
 <?php
 
 require_once 'const.php';
-require_once 'environment.php';
 
 
 spl_autoload_register(function ($class_name) {

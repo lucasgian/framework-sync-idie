@@ -1,28 +1,25 @@
 
 
 <main role="main" class="inner cover">
-	<h1 class="cover-heading">Configuração da Estrutura</h1>
+	<h1 class="cover-heading">Geração automática</h1>
 	</p>
 </main>
 
 <div class="container"> 
 	<div class="tab-content">
 		<div class="tab-pane fade show active" id="nav-tab-card">
-			<p class="alert alert-danger"><b>CONFIGURAÇÂO É NECESSARIA</b></p>
+			<p class="alert alert-success"><b>Crie uma página automáticamente</b></p>
 			<form role="form">
 
 				<div class="form-row">
-					<div class="form-group col-md-6">
-						<label for="username">Estrutura do diretorio</label>
-						<input type="text" class="form-control" name="username" placeholder="exemplo/framework-sync-idie" required="">
-					
-					</div>
-					<div class="form-group col-md-6">
-						<label for="username">Alterar nome</label>
-						<input type="text" class="form-control" name="username" placeholder="framework-sync-idie para meu-projeto" required="">						
+					<div class="form-group col-md-12">
+						<label for="username">Nome da página</label>
+						<input type="text" class="form-control" name="username" placeholder="login" required="">
+
 					</div>
 				</div> 
-				<button class="subscribe btn btn-primary btn-block" type="button"> Confirmar  </button>
+                
+				<button class="subscribe btn btn-primary btn-block" type="button"> Criar  </button>
 			</form>
 		</div> <!-- tab-pane.// -->
 	</div>

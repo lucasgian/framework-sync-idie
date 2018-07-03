@@ -32,6 +32,11 @@
             "page": "generation"
         },
         {
+            "name": "write-data",
+            "presenter": "MainView",
+            "page": "write"
+        },
+        {
             "name": "login",
             "presenter": "LoginView",
             "page": "index"

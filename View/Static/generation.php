@@ -18,14 +18,12 @@
 
 					</div>
 				</div> 
-                
+
 				<button class="subscribe btn btn-primary btn-block" type="button"> Criar  </button>
 			</form>
 		</div> <!-- tab-pane.// -->
 	</div>
 </div>
-
-
 
 
 

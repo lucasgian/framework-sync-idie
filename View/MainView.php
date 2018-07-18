@@ -35,12 +35,7 @@ class MainView {
 	public function writeRouter() {
 		
 		$json = Decode::getJson();
-		BootstrapClass::getAllStyle();
-		// $array = (array) $json;
-		//echo key(current($array));
-
-		BootstrapClass::getCadText( DebugClass::dump_var($json) );
-		die();
+		
 
 		if (isset($_POST['dir']) && isset($_POST['fileName'])) {
 

@@ -11,6 +11,7 @@
         "router": "idie/router/",
         "interface": "idie/Interface/",
         "util": "idie/util/",
+        "core": "idie/core/functions/",
 
         "view": "view/",
         "pages": "view/pages/",
@@ -32,9 +33,14 @@
             "page": "generation"
         },
         {
-            "name": "write-data",
+            "name": "write-data-app",
             "presenter": "MainView",
-            "page": "write"
+            "page": "writeApp"
+        },
+        {
+            "name": "write-data-router",
+            "presenter": "MainView",
+            "page": "writeRouter"
         },
         {
             "name": "login",
